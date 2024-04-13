@@ -16,7 +16,7 @@ class _RazorPayPageState extends State<RazorPayPage> {
   void openCheckedOut(amount)async {
     amount = amount * 100;
     var options = {
-      'key': '',
+      'key': '',//you'll have to specify here your razorPay account key
       'amount': amount,
       'name': 'Shyam Dave',
       'prefill': {'contact': '9876543210', 'email': 'abc@mail.com'},
